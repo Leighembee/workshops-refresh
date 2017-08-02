@@ -1,8 +1,0 @@
-{
-  "framework": "jasmine2",
-  "src_files": [
-    "01_queue/*.js",
-    "02_linkedlist/*.js",
-    "03_extra_credit/queue/*.js"
-  ]
-}

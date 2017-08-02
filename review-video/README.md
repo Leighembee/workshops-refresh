@@ -1,5 +1,3 @@
-http://wesbos.com/let-vs-const/
-
 # Test-first Data Structures
 
 *NOTE: you are encouraged to follow the workshop text for this repo, which covers the following in greater detail.*
@@ -8,7 +6,7 @@ http://wesbos.com/let-vs-const/
 
 Abstract Data Types (ADTs) are purely conceptual entities comprising information and allowed operations on that information. Data Structures (DSs) are actual programmatic solutions to implement an ADT. Both are very important to computer science in general and also a great way to better understand Object-Oriented Programming (OOP).
 
-In this workshop, we are going to be writing the JavaScript implementations of some different ADTs and DSs, including Queues, Linked Lists, Hash Tables and Binary Search Trees.
+In this workshop, we are going to be writing the JavaScript implementations of some different ADTs and DSs. In the first part of this workshop, we will focus on Queues and Linked Lists. In the second part of this workshop, we will shift our attention towards Binary Search Trees and Hash Tables.
 
 ## Running
 
@@ -26,10 +24,7 @@ The LL operations are far easier to understand and account for if you diagram ou
 
 Compare the LL to the classic contiguous fixed Array (which does not exist in ES5 JavaScript). What are the pros and cons of each, and why?
 
-### Binary Search Tree DS
+### Extra Credit: Implementing a Circular Buffer Queue using a Typed Array
 
-BSTs are highly recursive structures — many of your methods should employ recursion.
-
-### Hash Table DS
-
-Keeping track of what is going where and how to access it in this suite may be tricky. Good variable and property names will be especially helpful here; try to keep things clear.
+If you finish the first half of the workshop early, take a stab at the extra credit specs in `05_extra_credit`.
+Take a look at the [MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray) for Typed Arrays. You'll be using a Uint8Array for this exercise.
