@@ -13,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/FullstackAcademy/data-structures/issues"
   },
-  "homepage": "https://github.com/FullstackAcademy/data-structures#readme"
+  "homepage": "https://github.com/FullstackAcademy/data-structures#readme",
+  "dependencies": {
+    "testem": "^1.18.1"
+  }
 }
