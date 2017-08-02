@@ -11,7 +11,7 @@ describe('A dynamic array', function() {
     expect(array.data instanceof Uint8Array).toBe(true);
   });
 
-  it('should start with an array of size 10', function() {
+  it('should start with an array of size 2', function() {
     expect(array.data.length).toBe(2);
   });
 
