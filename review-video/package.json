@@ -1,0 +1,17 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "learn abstract data types and data structures through implementation and simulation",
+  "scripts": {
+    "test": "testem"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FullstackAcademy/data-structures.git"
+  },
+  "author": "Gabriel Lebec <glebec@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/FullstackAcademy/data-structures/issues"
+  },
+  "homepage": "https://github.com/FullstackAcademy/data-structures#readme"
+}
