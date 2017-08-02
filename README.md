@@ -28,3 +28,8 @@ Compare the LL to the classic contiguous fixed Array (which does not exist in ES
 
 If you finish the first half of the workshop early, take a stab at the extra credit specs in `05_extra_credit`.
 Take a look at the [MDN reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray) for Typed Arrays. You'll be using a Uint8Array for this exercise.
+
+### Extra Credit: Implementing a Dynamic Array using a Typed Array
+Take a look at [this description](https://www.interviewcake.com/article/python/data-structures-coding-interview#dynamic-arrays) of a dynamic array for the logic backing a dynamic array.
+
+For more fun, go back and re-implement your Queue using a DynamicArray as your backing storage.
