@@ -19,7 +19,7 @@ describe('A dynamic array', function() {
     expect(array.append).toEqual(jasmine.any(Function));
   });
 
-  describe('Length method', function() {
+  describe('length property', function() {
     it('should start with a length of 0', function() {
       expect(array.length).toBe(0);
     });
